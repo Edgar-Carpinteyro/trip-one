@@ -1,0 +1,22 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hwb(249 85% 5%);
+
+  flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.main-header{
+  font-family: 'Fredoka One', cursive;
+}
+
+.create-form label{
+  color: rgb(87, 20, 242) !important;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px !important;
+}
+
